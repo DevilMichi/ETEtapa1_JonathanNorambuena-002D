@@ -1,0 +1,11 @@
+Path: ETEtapa1_JonathnaNorambuena-002D\GroundZero
+
+http://127.0.0.1:8000/admin
+http://127.0.0.1:8000/agregar/
+http://127.0.0.1:8000/editar/1/
+
+
+EL Usuario es : jony 
+contraseña : 123
+
+no lo decore mucho porque pedia el crud funcional y la navbar y no mucho mas 

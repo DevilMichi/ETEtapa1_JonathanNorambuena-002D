@@ -1,0 +1,20 @@
+{% extends 'todo/layout.html' %}
+
+{% block content %}
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">GROUND ZERO</h1>
+    <p class="lead">Lista de Proveedores de Ground Zero</p>
+  </div>
+</div>
+
+    <ul>
+      {% for Proveedor in Proveedors %}
+       <li>{{Proveedor}}</li>
+       <button><a href="{% url 'eliminar' Proveedor.id  %}">eliminar</a></button>
+       <button><a href="{% url 'editar' Proveedor.id  %}">Editar</a></button>
+     {% endfor %}
+    </ul>
+
+{% endblock %}

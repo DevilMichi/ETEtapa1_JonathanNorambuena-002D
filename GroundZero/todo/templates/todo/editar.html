@@ -1,0 +1,10 @@
+{% extends 'todo/layout.html' %}
+
+{% block content %}
+<<br>
+<form method="post">
+   {% csrf_token %}
+   {{ form }}
+   <button>Editar Proveedor</button>
+</form>
+{% endblock %}
