@@ -9,3 +9,8 @@ EL Usuario es : jony
 contraseña : 123
 
 no lo decore mucho porque pedia el crud funcional y la navbar y no mucho mas 
+
+el github
+
+https://github.com/DevilMichi/ETEtapa1_JonathanNorambuena-002D
+
